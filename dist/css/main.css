@@ -40,7 +40,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden;
 }
 
@@ -71,7 +70,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: rgba(55, 55, 55, 0.9);
   list-style: none;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
@@ -85,7 +84,7 @@
 }
 
 .menu-branding {
-  background: #444;
+  background: rgba(68, 68, 68, 0.9);
   -webkit-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
   -webkit-transition: all 0.6s ease-out;

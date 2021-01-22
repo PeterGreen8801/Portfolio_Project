@@ -30,7 +30,7 @@ $background-opacity: 0.9;
   }
 }
 
-//Media Query Mixins (Also how to have specific look for smaller or larger windows)
+//Media Query Mixins (Also how to have specific look for smaller or larger windows), connects to mobile.scss
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
